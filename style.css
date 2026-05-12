@@ -158,6 +158,10 @@ body{
     grid-template-columns: 1fr;
 }
 
+.services-page-grid{
+    grid-template-columns: 1fr;
+}
+
 @media(max-width: 600px){
 
     .hero-text h1{
@@ -194,6 +198,14 @@ body{
     font-size: 16px;
     }
 
+}
+
+.about-hero h1{
+    font-size: 42px;
+}
+
+.about-text h2{
+    font-size: 32px;
 }
 
 /* Services Section */
@@ -605,4 +617,140 @@ body{
 .faq-item p{
     color: #6b7280;
     line-height: 1.8;
+}
+
+
+/* About Page */
+
+.about-hero{
+    width: 100%;
+    padding: 140px 8% 100px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.about-hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.about-hero p{
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.about-content{
+    width: 100%;
+    padding: 100px 8%;
+}
+
+.about-text{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.about-text p{
+    color: #6b7280;
+    line-height: 1.9;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+/* Services Page */
+
+.services-hero{
+    width: 100%;
+    padding: 140px 8% 100px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.services-hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.services-hero p{
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.services-page{
+    width: 100%;
+    padding: 100px 8%;
+}
+
+.services-page-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.services-page-card{
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.services-page-card:hover{
+    transform: translateY(-10px);
+}
+
+.services-page-card h2{
+    color: #2563eb;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.services-page-card p{
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+
+/* Contact Page */
+
+.contact-hero{
+    width: 100%;
+    padding: 140px 8% 100px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.contact-hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-hero p{
+    font-size: 20px;
+    color: #6b7280;
+}
+
+.contact-page{
+    width: 100%;
+    padding: 100px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.contact-info h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    color: #6b7280;
+    line-height: 2;
+    font-size: 18px;
 }
